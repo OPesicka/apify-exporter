@@ -1,5 +1,5 @@
 {
-    "id": "io.supernova.style-dictionary",
+    "id": "apify.exporter",
     "name": "Style Dictionary",
     "description": "Style dictionary definition exporter",
     "author": "Jiri Trecak",

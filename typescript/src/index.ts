@@ -460,7 +460,8 @@ function referenceName(token: Token, allGroups: Array<TokenGroup>) {
  * For example, ST&RK Industries will be changed to st-rk-industries
  */
 function safeTokenName(token: Token) {
-  return token.name.replace(/\W+/g, "-").toLowerCase()
+  // skip safe to match how our tokens are named
+  return token.name
 }
 
 /** Retrieve safe group name made out of normal group name
