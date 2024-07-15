@@ -1,24 +1,21 @@
 {
-    "id": "apify.exporter",
-    "name": "Style Dictionary",
-    "description": "Style dictionary definition exporter",
-    "author": "Jiri Trecak",
-    "organization": "Supernova",
-    "source_dir": "src",
-    "version": "1.2.2",
-    "usesBrands": true,
-    "config": {
-        "sources": "sources.json",
-        "output": "output.json",
-        "js": "src/js/compiled.js"
-    },
-    "engines": {
-        "pulsar": "1.0.0",
-        "supernova": "1.0.0"
-    },
-    "tags": [
-        "Style Dictionary",
-        "Tokens",
-        "Styles"
-    ]
+  "id": "apify.exporter",
+  "name": "Apify dicstionary",
+  "description": "Style dictionary definition exporter",
+  "author": "Jiri Trecak",
+  "organization": "Supernova",
+  "source_dir": "src",
+  "version": "0.0.2",
+  "usesBrands": true,
+  "usesThemes": true,
+  "config": {
+    "sources": "sources.json",
+    "output": "output.json",
+    "js": "src/js/compiled.js"
+  },
+  "engines": {
+    "pulsar": "1.0.0",
+    "supernova": "1.0.0"
+  },
+  "tags": ["Style Dictionary", "Tokens", "Styles"]
 }
